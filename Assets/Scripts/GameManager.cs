@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     { 
         Instance = this;
-        //InputController = GetComponentInChildren<InputController>();
+        InputController = GetComponentInChildren<InputController>();
     }
 
     void Update()

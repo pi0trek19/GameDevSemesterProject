@@ -96,19 +96,19 @@ namespace VehicleBehaviour.Utils {
 			}
 
 			// Update speedometer
-			if (speedometer != null && vehicle != null)
-			{
-				StringBuilder sb = new StringBuilder();
-				sb.Append("Speed:");
-				sb.Append(((int) (vehicle.Speed)).ToString());
-				sb.Append(" Kph");
+			//if (speedometer != null && vehicle != null)
+			//{
+			//	StringBuilder sb = new StringBuilder();
+			//	sb.Append("Speed:");
+			//	sb.Append(((int) (vehicle.Speed)).ToString());
+			//	sb.Append(" Kph");
 
-				speedometer.text = sb.ToString();
-			}
-			else if (speedometer.text != "")
-			{
-				speedometer.text = "";
-			}
+			//	speedometer.text = sb.ToString();
+			//}
+			//else if (speedometer.text != "")
+			//{
+			//	speedometer.text = "";
+			//}
 			
 		}
 	}
